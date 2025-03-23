@@ -6,7 +6,7 @@
     "install-all": "cd project && npm install && cd ../backend && npm install",
     "frontend": "cd project && npm run dev",
     "backend": "cd backend && npm run dev",
-    "dev": "concurrently \"npm run frontend\" \"npm run backend\" --kill-others --names \"FRONTEND,BACKEND\" -c \"green,blue\""
+    "dev": "npx concurrently \"npm run frontend\" \"npm run backend\" --kill-others --names \"FRONTEND,BACKEND\" -c \"green,blue\""
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
