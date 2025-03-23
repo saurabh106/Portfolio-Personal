@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+projects/node_modules/
+backend/node_modules/
+
+# Environment variables
+.env
+projects/.env
+backend/.env
+
+# Log files
+*.log
+projects/*.log
+backend/*.log
+
+# Build output
+build/
+projects/build/
+backend/build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# npm and yarn lock files (uncomment if you want to ignore them)
+# package-lock.json
+# projects/package-lock.json
+# backend/package-lock.json
+# yarn.lock
+# projects/yarn.lock
+# backend/yarn.lock
+
+# IDE settings (optional, adjust as needed)
+.vscode/
+.idea/
